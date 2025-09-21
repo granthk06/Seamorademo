@@ -219,8 +219,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-gray-400 text-sm mb-1">Phone</p>
-                      <p className="text-white font-medium text-lg">+1 (555) 123-4567</p>
-                      <p className="text-gray-400 text-sm">Mon-Fri, 9AM-6PM PST</p>
+                      <p className="text-white font-medium text-lg">+91 98765 43210</p>
+                      <p className="text-gray-400 text-sm">Mon-Fri, 9AM-6PM IST</p>
                     </div>
                   </div>
                   
@@ -230,7 +230,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-gray-400 text-sm mb-1">Location</p>
-                      <p className="text-white font-medium text-lg">Los Angeles, CA</p>
+                      <p className="text-white font-medium text-lg">Pune, Maharashtra</p>
                       <p className="text-gray-400 text-sm">Available worldwide</p>
                     </div>
                   </div>
@@ -243,7 +243,7 @@ const Contact = () => {
                       <p className="text-gray-400 text-sm mb-1">Business Hours</p>
                       <p className="text-white font-medium">Monday - Friday: 9AM - 6PM</p>
                       <p className="text-white font-medium">Saturday: 10AM - 4PM</p>
-                      <p className="text-gray-400 text-sm">Emergency support available 24/7</p>
+                      <p className="text-gray-400 text-sm">Emergency support available 24/7 IST</p>
                     </div>
                   </div>
                 </div>
@@ -302,7 +302,7 @@ const Contact = () => {
               },
               {
                 question: "Do you work with venues outside of Los Angeles?",
-                answer: "Absolutely! While we're based in LA, we work with artists and venues worldwide. Travel and accommodation costs may apply for out-of-area events."
+                answer: "Absolutely! While we're based in Pune, we work with artists and venues across Maharashtra and India. Travel and accommodation costs may apply for out-of-city events."
               },
               {
                 question: "How far in advance should I book an event?",

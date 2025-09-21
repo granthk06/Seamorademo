@@ -15,7 +15,7 @@ const Events = () => {
       id: 1,
       title: "Electric Nights",
       date: "March 15, 2025",
-      location: "The Underground",
+      location: "The Underground, Koregaon Park",
       image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       description: "An electrifying night of house and techno beats",
       attendees: "500+"
@@ -24,7 +24,7 @@ const Events = () => {
       id: 2,
       title: "Rooftop Sessions",
       date: "March 22, 2025",
-      location: "Sky Lounge",
+      location: "Sky Lounge, Viman Nagar",
       image: "https://images.unsplash.com/photo-1571949334156-fee1b2f63e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       description: "Sunset vibes with the city's hottest DJs",
       attendees: "300+"
@@ -33,7 +33,7 @@ const Events = () => {
       id: 3,
       title: "Bass Drop Friday",
       date: "March 29, 2025",
-      location: "Metro Club",
+      location: "Metro Club, Baner",
       image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       description: "Heavy bass, intense drops, unforgettable night",
       attendees: "800+"
