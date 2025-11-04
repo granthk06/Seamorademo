@@ -16,9 +16,8 @@ const Services = () => {
       title: "Artist Management",
       icon: Users,
       description: "Professional artist representation, career development, and strategic booking management for emerging and established talent.",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       features: ["Career Development", "Booking Management", "Brand Building", "Industry Connections", "Contract Negotiation", "Tour Planning"],
-      price: "Custom Pricing",
       popular: false
     },
     {
@@ -26,9 +25,8 @@ const Services = () => {
       title: "DJ Nights",
       icon: Music,
       description: "Curated nightlife experiences featuring world-class DJs, premium sound systems, and unforgettable atmospheres.",
-      image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1571266028243-0c55f7d68ad9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       features: ["Premium Sound Systems", "World-Class DJs", "Event Production", "Venue Partnerships", "Lighting Design", "VIP Experiences"],
-      price: "From $5,000",
       popular: true
     },
     {
@@ -36,9 +34,8 @@ const Services = () => {
       title: "Social Media for Creators",
       icon: Share2,
       description: "Comprehensive digital strategy, content creation, and audience growth solutions for creative professionals.",
-      image: "https://images.unsplash.com/photo-1611262588024-d12430b98920?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       features: ["Content Strategy", "Audience Growth", "Brand Partnerships", "Analytics & Insights", "Influencer Collaborations", "Campaign Management"],
-      price: "From $2,500/month",
       popular: false
     }
   ];
@@ -111,7 +108,7 @@ const Services = () => {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+            src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
             alt="Services Background"
             className="w-full h-full object-cover"
           />
@@ -187,8 +184,7 @@ const Services = () => {
                     </ul>
                   </div>
                   
-                  <div className="flex items-center justify-between mb-6">
-                    <span className="text-2xl font-bold text-white">{service.price}</span>
+                  <div className="flex items-center justify-center mb-6">
                     <div className="flex items-center text-yellow-400">
                       {[...Array(5)].map((_, i) => (
                         <Star key={i} size={16} className="fill-current" />

@@ -12,15 +12,15 @@ const Artists = () => {
 
   const featuredArtist = {
     id: 1,
-    name: "DJ Neon",
+    name: "DJ Seaborn",
     genre: "Electronic / House",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    description: "Master of electronic beats and crowd energy, DJ Neon has been setting dance floors ablaze across the globe for over a decade. Known for seamless mixing and reading the crowd's energy.",
+    image: "/image copy copy.png",
+    description: "Master of electronic beats and crowd energy, DJ Seaborn has been setting dance floors ablaze across the globe for over a decade. Known for seamless mixing and reading the crowd's energy.",
     rating: 5,
     events: "50+ Events",
     followers: "125K",
     nextShow: "Electric Nights - March 15",
-    bio: "With residencies at top clubs worldwide and festival appearances at Coachella, EDC, and Ultra, DJ Neon brings unmatched energy to every performance."
+    bio: "With residencies at top clubs worldwide and festival appearances at major festivals, DJ Seaborn brings unmatched energy to every performance with his signature style."
   };
 
   const artists = [
@@ -28,7 +28,7 @@ const Artists = () => {
       id: 2,
       name: "Luna Vibes",
       genre: "Deep House / Techno",
-      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      image: "https://images.unsplash.com/photo-1571266028243-0c55f7d68ad9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
       description: "Creating atmospheric soundscapes for unforgettable nights",
       rating: 5,
       events: "75+ Events",
@@ -48,7 +48,7 @@ const Artists = () => {
       id: 4,
       name: "Rhythm Queen",
       genre: "Hip-Hop / R&B",
-      image: "https://images.unsplash.com/photo-1571949334156-fee1b2f63e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
       description: "Bringing the hottest hip-hop and R&B vibes",
       rating: 5,
       events: "60+ Events",
@@ -68,7 +68,7 @@ const Artists = () => {
       id: 6,
       name: "Electric Soul",
       genre: "Future Bass / Trap",
-      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
       description: "Blending electronic elements with soulful melodies",
       rating: 5,
       events: "45+ Events",
@@ -120,7 +120,7 @@ const Artists = () => {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+            src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
             alt="Artists Background"
             className="w-full h-full object-cover"
           />
